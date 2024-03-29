@@ -1,11 +1,11 @@
 package com.ruoyi.system.api.factory;
 
+import com.ruoyi.system.api.RemoteLogService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.cloud.openfeign.FallbackFactory;
 import org.springframework.stereotype.Component;
 import com.ruoyi.common.core.domain.R;
-import com.ruoyi.system.api.RemoteLogService;
 import com.ruoyi.system.api.domain.SysLogininfor;
 import com.ruoyi.system.api.domain.SysOperLog;
 
